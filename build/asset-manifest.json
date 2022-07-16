@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55c29c9a.css",
+    "main.js": "/static/js/main.4eac1ea2.js",
+    "static/js/787.bb4585f6.chunk.js": "/static/js/787.bb4585f6.chunk.js",
+    "static/media/image_summer-desktop.png": "/static/media/image_summer-desktop.ffb0235bcb2a588f12b4.png",
+    "static/media/image_summer-mobile.png": "/static/media/image_summer-mobile.490898e0290e3aad14d3.png",
+    "static/media/ic_arrow.svg": "/static/media/ic_arrow.e39af683f000a807f1fd.svg",
+    "static/media/ic_checkmark.svg": "/static/media/ic_checkmark.4dff115c03d30c491436.svg",
+    "index.html": "/index.html",
+    "main.55c29c9a.css.map": "/static/css/main.55c29c9a.css.map",
+    "main.4eac1ea2.js.map": "/static/js/main.4eac1ea2.js.map",
+    "787.bb4585f6.chunk.js.map": "/static/js/787.bb4585f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55c29c9a.css",
+    "static/js/main.4eac1ea2.js"
+  ]
+}

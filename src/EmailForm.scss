@@ -1,0 +1,121 @@
+.formBox {
+  flex: auto;
+  padding-top: 20px;
+}
+
+.vl {
+  position: absolute;
+  top: 146px;
+  left: 20px;
+  width: 4px;
+  height: 60px;
+  background: #4066a5;
+}
+
+.vl.error {
+  background: #b80808;
+}
+
+.emailInput {
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e3e3e4;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6a707b;
+  text-indent: 16px;
+  padding-right: 15%;
+}
+
+.emailInput:focus {
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+.emailInput:hover {
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+  border-color: #4066a5;
+}
+
+.emailInput.error {
+  border: 1px solid #b80808;
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+.submitButton {
+  height: 60px;
+  width: 62px;
+  position: absolute;
+  top: 146px;
+  right: 16px;
+  border: none;
+  background: center no-repeat url("/Images/ic_arrow.svg");
+}
+
+.message.hide {
+  display: none;
+}
+
+.approved.message {
+  display: unset;
+  padding-top: 6px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  color: rgb(33, 172, 51);
+}
+
+.message.error {
+  display: unset;
+  color: #b80808;
+}
+
+@media only screen and (min-width: 920px) {
+  .formBox {
+    flex: none;
+    width: 663px;
+    height: 70px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  .vl {
+    top: 160px;
+    left: 91px;
+    height: 70px;
+  }
+
+  .emailInput {
+    height: 70px;
+    text-indent: 41px;
+  }
+
+  .submitButton {
+    top: 188px;
+    right: -51px;
+    width: 24px;
+    height: 14px;
+    border: none;
+  }
+
+  .approved-message {
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    line-height: 12px;
+  }
+
+  .error-message {
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    line-height: 12px;
+  }
+}
